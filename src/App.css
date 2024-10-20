@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8ff; /* Светлый фон */
+    font-family: Arial, sans-serif; /* Шрифт */
+}
+
+h2 {
+    color: #2e8b57; /* Цвет заголовков */
+    text-align: center; /* Выравнивание */
+}
+
+ul {
+    list-style-type: none; /* Убрать маркеры */
+    padding: 0; /* Убрать отступы */
+}
+
+li {
+    background-color: #ffe4b5; /* Фон для элементов списка */
+    margin: 5px 0; /* Отступы между элементами */
+    padding: 10px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругление углов */
+    transition: background-color 0.3s; /* Плавный переход при наведении */
+}
+
+    li:hover {
+        background-color: #ffebcd; /* Изменение цвета при наведении */
+    }
+
+.participant-item, .queue-item {
+    font-family: Arial, sans-serif; /* Установка шрифта Arial для участников и очереди */
+}
+
+.participant-list, .queue-list {
+    background-color: #ffe4b5; /* Фон для списков */
+    border-radius: 5px; /* Закругление углов */
+    padding: 10px; /* Внутренние отступы */
+    width: 100%; /* Ширина списка */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для эффекта */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Новые стили для поля ввода и кнопки */
+input[type="text"] {
+    padding: 10px; /* Внутренние отступы */
+    border: 2px solid #2e8b57; /* Цвет рамки */
+    border-radius: 5px; /* Закругление углов */
+    width: calc(100% - 22px); /* Учитываем отступы */
+    margin-bottom: 10px; /* Отступ снизу */
+    transition: border-color 0.3s; /* Плавный переход при наведении */
+}
+
+    input[type="text"]:focus {
+        border-color: #5f9ea0; /* Цвет рамки при фокусе */
+        outline: none; /* Убираем стандартный контур */
+    }
+
+button {
+    background-color: #2e8b57; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 15px; /* Отступы */
+    border: none; /* Убираем стандартную рамку */
+    border-radius: 5px; /* Закругление углов */
+    cursor: pointer; /* Указатель курсора */
+    transition: background-color 0.3s; /* Плавный переход при наведении */
+}
+
+    button:hover {
+        background-color: #5f9ea0; /* Изменение цвета при наведении */
+    }
